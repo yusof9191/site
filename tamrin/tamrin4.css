@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+nav{
+    background-color: rgb(44, 139, 191);
+    width: 100%;
+    padding: 10px 0;
+
+}
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 40px;
+
+}
+.menu ul{
+    display: inline-flex;
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 7px;
+}
+.menu ul a{
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    background-color: aqua;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.menu ul a:hover{
+    color: red;
+    background-color: blue;
+}
+.img{
+background-image: url(ahmed-zayan-Zd7Ybsr2dK8-unsplash.jpg);
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.center{
+    top: 57%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    position: absolute;
+}
+h1{
+    color: black;
+    font-size: 55px;
+}
+p{
+    color: #ffff;
+    font-size: 22px;
+}
+.center .btn{
+    margin: 20px;
+}
+.center .btn button{
+    height: 55px;
+    width: 170px;
+    background-color:aqua ;
+    color: red;
+    border: 2px solid rgb(rgb(37, 74, 148));
+    border-radius: 15px;
+    margin: 0 10px 20px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.center .btn button:hover{
+    background-color: rgb(76, 83, 208);
+    color: black;
+}

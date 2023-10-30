@@ -1,0 +1,27 @@
+body{
+    direction:  rtl;
+    text-align: center;
+
+}
+*{
+    color: rgb(118, 19, 211);
+    font-family: b titr;
+    
+}
+p{
+    background-color: brown;
+}
+.h30{
+    height: 100px;
+    background-color: aqua;
+    display: block;
+
+}
+h1{
+    color: blueviolet;
+    background-image: url(img/nature_lake_sky_sunset_84758_1920x1080.jpg);
+    
+}
+#text3{
+    color: red;
+}

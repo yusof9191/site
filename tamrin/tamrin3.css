@@ -1,0 +1,21 @@
+.p{
+    text-align: center;
+    background-color: aquamarine;
+    /*height: 50px;
+    width: 1170px;*/
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    display: block;
+    font-family: b 'Times New Roman', Times, serif;
+}
+#menu{
+    background-color: rgb(215, 103, 103);
+    font-size: small;
+    font-family: serif;
+
+}
+#search{
+text-align: center;
+opacity: 50%;
+height: 25px;
+}
