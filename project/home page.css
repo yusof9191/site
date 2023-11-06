@@ -5,7 +5,8 @@
     font-family: monospace;
 }
 nav{
-    background-color: rgb(44, 139, 191);
+    background-color: rgb(131, 139, 40);
+    height: 50px;
     width: 100%;
     padding: 10px 0;
 
@@ -18,15 +19,15 @@ nav .menu{
     justify-content: space-between;
     padding: 0 20px;
 }
-.menu .logo a{
-    text-decoration: none;
-    color: crimson;
-    font-size: 40px;
-
+#home{
+    color: black;
 }
 .menu ul{
+    padding-top: 19px;
     display: inline-flex;
-
+    position: fixed;
+    padding-left: 0px;
+    text-align: left;
 }
 .menu ul li{
     list-style: none;
@@ -37,8 +38,9 @@ nav .menu{
     color:rgb(255, 255, 255) ;
     background-color: aqua;
     font-size: 18px;
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 5px;
+
 }
 .menu ul a:hover{
     color: red;
@@ -51,6 +53,8 @@ width: 100%;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+overflow-x: hidden;
+overflow-y: hidden;
 }
 .center{
     top: 57%;
@@ -62,6 +66,7 @@ background-size: cover;
 h1{
     color: black;
     font-size: 55px;
+    
 }
 p{
     color: #ffff;
@@ -78,7 +83,7 @@ p{
     border: 2px solid rgb(rgb(37, 74, 148));
     border-radius: 15px;
     margin: 0 10px 20px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 10px;
 }
 .center .btn button:hover{
