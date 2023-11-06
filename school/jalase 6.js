@@ -1,8 +1,10 @@
+alert("Welcome to \n translate");
 function tr(){
-    //ورودی
+    //Entrance
     var n=document.getElementById("txt").value;
-    //کد برنامه
-
+    //Program code
+    /**if*/
+    
     //var tarjome ="کلمه مورد نظر وجود ندارد";
     //if (n=="hello")
     //tarjome=" سلام"
@@ -25,10 +27,12 @@ function tr(){
     //if (n=="left")
     //tarjome="چپ"
 
+    /**Switch*/
+    
     switch(n){
         case "hello":tarjome="سلام";break;
         case "":tarjome="چیزی وارد نشده است";
     }
-    //خروجی
+    //output
     document.getElementById("out").value=tarjome;
 }

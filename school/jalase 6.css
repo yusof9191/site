@@ -40,4 +40,5 @@
 }
 .btn:hover{
     box-shadow: inset 0px 10px 50px 1px blue;
+    scale: 105%;
 }
