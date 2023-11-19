@@ -95,6 +95,40 @@ p{
     background-color: rgb(76, 83, 208);
     color: black;
 }
-.shahr p{
+#valed{
+    background-color: rgb(52, 52, 124);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.sartitr{
     color: red;
+    text-decoration:none;
+    text-align: center;
+}
+.titr{
+    text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+.titr p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row{
+    display: flex;
+    flex-direction:column;
+}
+.cr{
+    background-color: blueviolet;
+}
+.cr p{
+    color:#ffff;
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    font-size: 13px;
 }
