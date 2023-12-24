@@ -1,0 +1,25 @@
+#out{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+::placeholder{
+    color: rgba(220, 3, 3, 0.492);
+    text-align: center;-
+}
+div label{
+    color: green;
+    font-size: 15px;
+}
+.input{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+}
+#out p span{
+    border: 2px solid black;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+}
